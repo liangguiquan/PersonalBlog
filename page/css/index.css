@@ -1,0 +1,79 @@
+.every_day {
+    background-color: #fff;
+    width: 96%;
+    text-align: left;
+    border-radius: 5px;
+    padding: 10px 15px;
+    box-shadow: 1px 1px 10px #5f5f5f;
+    font-size: 12px;
+}
+
+.every_day::before{
+    font-family: 'MyIcon';
+    content: '\e122';
+    font-size: 12px;
+    color: slateblue;
+    display: block;
+    position: relative;
+    height: 0px;
+    left: 54px;
+}
+.every_day > span {
+    display: block;
+    color: slateblue;
+    font-size: 12px;
+    margin-bottom: 5px;
+    
+}
+.every_day > p {
+    display: block;
+    color: #000;
+    font-size: 14px;
+    margin: 10px 0;
+    
+}
+
+.article_list{
+    width: 100%;
+    margin-top: 10px;
+}
+.article{
+    background-color: #fff;
+    width: 100%;
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid #888888;
+    overflow: hidden;
+    text-align: left;
+    margin-top: 15px;
+}
+
+.article .article_title{
+    display: inline-block;
+    font-size: 20px;
+    color: #12102b;
+    text-decoration: none;
+    padding: 20px 10px 5px 10px;
+}
+.article .article_title:hover{
+    color: #337ab7;
+}
+
+.article .article_content {
+    font-size: 14px;
+    color: #13102b;
+    padding: 0px 10px 20px 10px;
+    text-align: left;
+    word-wrap: break-word;
+    word-break: break-all;
+    overflow: hidden;
+}
+
+.article .article_foot {
+    color: #eeeeee;
+    background: #1f1f1f;
+    width: 100%;
+    font-size: 14px;
+    padding: 5px;
+}
+
